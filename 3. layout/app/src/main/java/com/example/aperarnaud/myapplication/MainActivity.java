@@ -2,13 +2,17 @@ package com.example.aperarnaud.myapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.constraint_layout_1);
+        setContentView(R.layout.constraint_layout);
+
+        TextView tv = (TextView)this.findViewById(R.id.textView);
+        tv.setText("coucou");
     }
 
     @Override

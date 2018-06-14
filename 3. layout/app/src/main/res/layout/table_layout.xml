@@ -7,20 +7,18 @@
         android:layout_weight="1">
 
         <TextView
+            android:layout_gravity="center"
             android:textAlignment="center"
             android:gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:padding="3dip"
             android:text="1"
             android:layout_weight="1"/>
 
-        <TextView
-            android:textAlignment="center"
-            android:gravity="center"
+        <include layout="@layout/constraint_layout"
+            android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:text="2"
             android:layout_weight="1"/>
     </TableRow>
     <TableRow
@@ -28,15 +26,14 @@
         android:layout_height="fill_parent"
         android:layout_weight="1">
 
-        <TextView
-            android:textAlignment="center"
-            android:gravity="center"
+        <include layout="@layout/constraint_layout"
+            android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:text="1"
             android:layout_weight="1"/>
 
         <TextView
+            android:layout_gravity="center"
             android:textAlignment="center"
             android:gravity="center"
             android:layout_width="0dp"
