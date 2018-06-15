@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/aperarnaud/Desktop/formationandroid/9. intentservice/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/aperarnaud/Desktop/formationandroid/9. intentservice/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/aperarnaud/Desktop/SampleIntentService-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/aperarnaud/Desktop/SampleIntentService-master/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

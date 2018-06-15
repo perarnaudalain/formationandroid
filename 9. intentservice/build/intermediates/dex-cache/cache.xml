@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/aperarnaud/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/home/aperarnaud/Desktop/formationandroid/9. intentservice/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.0_a065500cb6f3def7b16f7028fd4ed1b1a572acdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aperarnaud/Desktop/formationandroid/9. intentservice/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="/home/aperarnaud/Desktop/formationandroid/9. intentservice/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.0_7ae0f5b3706a2fb9240a3f080f90cb590a7324a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aperarnaud/Desktop/formationandroid/9. intentservice/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="/home/aperarnaud/Desktop/formationandroid/9. intentservice/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.0_df85f3fe2a41b1df14a6883a06741df821ed5a54.jar" />
+    </item>
+
+</items>
