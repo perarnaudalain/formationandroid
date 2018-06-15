@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 
 public class MainActivity extends FragmentActivity {
+    boolean switchScreen = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,16 +16,25 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
     }
 
-    void clic(View view) {
-        // Create new fragment and transaction
-        Fragment newFragment = new FragmentAlain();
+    public void click(View view) {
+
+        Fragment newFragment;
+
+        if(switchScreen) {
+            newFragment = new MyFragment();
+        } else {
+            newFragment = new FragmentAlain();
+        }
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
-// Replace whatever is in the fragment_container view with this fragment,
-// and add the transaction to the back stack
+
+        transaction.setCustomAnimations(R.anim.fade_in,
+                R.anim.fade_out);
+
         transaction.replace(R.id.fragment, newFragment);
 
-// Commit the transaction
         transaction.commit();
+
+        switchScreen = !switchScreen;
     }
 }
