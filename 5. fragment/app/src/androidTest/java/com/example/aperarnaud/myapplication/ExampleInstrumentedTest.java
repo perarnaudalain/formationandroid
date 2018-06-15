@@ -1,4 +1,4 @@
-package com.example.aperarnaud.fragment;
+package com.example.aperarnaud.myapplication;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.aperarnaud.fragment", appContext.getPackageName());
+        assertEquals("com.example.aperarnaud.myapplication", appContext.getPackageName());
     }
 }

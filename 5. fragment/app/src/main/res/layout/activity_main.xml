@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:onClick="clic">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,10 +16,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <fragment android:name="com.example.aperarnaud.MyFragment"
-        android:id="@+id/list"
-        android:layout_weight="1"
-        android:layout_width="0dp"
+    <fragment android:name="com.example.aperarnaud.myapplication.MyFragment"
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
 </android.support.constraint.ConstraintLayout>

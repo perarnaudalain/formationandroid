@@ -1,4 +1,4 @@
-package com.example.aperarnaud.fragment;
+package com.example.aperarnaud.myapplication;
 
 import org.junit.Test;
 
